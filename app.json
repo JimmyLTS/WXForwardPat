@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/mine/mine",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#587fc3",
+    "navigationBarTitleText": "吕同生",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar" : {
+    "list" : [
+      {
+        "pagePath": "pages/home/home",
+        "text" : "首页",
+        "iconPath" : "cloud://forward-1a6888.666f-forward-1a6888/tab_main_gray.png",
+        "selectedIconPath" : "cloud://forward-1a6888.666f-forward-1a6888/tab_main_select.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ],
+    "color" : "#898989",
+    "selectedColor" : "#5694D8"
+  }
+}
