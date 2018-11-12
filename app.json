@@ -2,6 +2,8 @@
   "pages":[
     "pages/home/home",
     "pages/mine/mine",
+    "pages/location/location",
+    "pages/list/list",
     "pages/logs/logs"
   ],
   "window":{
@@ -15,12 +17,26 @@
       {
         "pagePath": "pages/home/home",
         "text" : "首页",
-        "iconPath" : "cloud://forward-1a6888.666f-forward-1a6888/tab_main_gray.png",
-        "selectedIconPath" : "cloud://forward-1a6888.666f-forward-1a6888/tab_main_select.png"
+        "iconPath" : "/resources/tab_icon/tab_main_gray.png",
+        "selectedIconPath" : "/resources/tab_icon/tab_main_select.png"
+      },
+      {
+        "pagePath": "pages/location/location",
+        "text": "位置",
+        "iconPath": "/resources/tab_icon/tab_location_gray.png",
+        "selectedIconPath": "/resources/tab_icon/tab_location_select.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "列表",
+        "iconPath": "/resources/tab_icon/tab_list_gray.png",
+        "selectedIconPath": "/resources/tab_icon/tab_list_select.png"
       },
       {
         "pagePath": "pages/mine/mine",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "/resources/tab_icon/tab_mine_gray.png",
+        "selectedIconPath": "/resources/tab_icon/tab_mine_select.png"
       }
     ],
     "color" : "#898989",
